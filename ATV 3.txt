@@ -1,0 +1,18 @@
+1. Proposta das variáveis:
+  inteiro  CPF, RG
+     real  altura
+Caractere  nome, endereço
+
+2.Declaração das variáveis:
+nome = "José Almeida da Silva"
+CPF = 12345678900
+RG = 9517530
+altura = 1.78
+endereço = "Rua A, 380 – Centro – Recife/PE"
+
+3. Utilizado o comando de atribuição:
+nome <- "José Almeida da Silva"//
+CPF <- 12345678900//
+RG <- 9517530//
+altura <- 1.78//
+endereço <- "Rua A, 380 – Centro – Recife/PE"//
