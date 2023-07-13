@@ -1,0 +1,6 @@
+Na primeira imagem o professor dividiu cada coluna e linha tendo 3 alunos de uma matéria e 2 da outra. (Ex.: 3 alunos quegostam de mat e dois que gostam de Port.. ou 3 que gostam de Português e 2 que gostam de Matemática)
+
+Na segunda imagem ficou 4 alunos de uma matéria e 2 da outra, tanto em coluna quando em linha, sem ter os 4 de uma matéria seguidos.
+
+Quando ele ouviu que os alunos teriam trocados de lugar, observou que havia 2 colunas e 2 linhas fora do padrão de 4 + 2.
+Na 3 coluna ele notou que havia 5 alunos de Matemática, então algum deles não pertencia aquele lugar. E só poderiam ser o da linha 4 ou 5 pq elas também estavam alteradas. Como não podia ter 4 alunos seguidos de uma matéria só, ele entendeu que foi o M da  linha 4 que trocou com o P da coluna 5 e linha 5.
