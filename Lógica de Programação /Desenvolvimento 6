@@ -1,0 +1,52 @@
+INSTRUÇÕES DO PROJETO
+Levando em consideração os aprendizados sobre as estruturas condicionais, elabore um algoritmo que possa descobrir, através de perguntas e respostas, qual é o meio de transporte que o usuário está considerando. O usuário deverá escolher uma das seguintes opções:
+- trator; 
+- moto; 
+- bicicleta. 
+Para chegar ao resultado, as perguntas precisam ser respondidas apenas com "Sim" ou "Não".
+Exemplo:
+É terrestre? Sim.
+Cabe apenas uma pessoa? Sim.
+É pesado? Não.
+Tem pedal? Sim.
+Então, o transporte escolhido foi a bicicleta.
+
+Para chegar ao resultado de cada uma das opções, use o modelo em anexo.
+
+  --------------RESOLUÇÃO--------------
+
+  Algoritmo transporte
+
+var
+terrestre, pessoa, pesado: caractere
+
+inicio
+
+escreva(“Escolha um meio de transporte dentre as seguintes opções: trator, moto ou bicicleta.  Responda com “Sim” ou “Não” para descobrirmos qual você escolheu.”)
+
+escreva (“É terrestre?  ”)
+leia(terrestre)
+
+se (terrestre=sim) então
+escreva (“Cabe apenas uma pessoa?  ”)
+leia(pessoa)
+
+   se (pessoa=sim)então
+   escreva (“É pesado?  ”)
+   leia(pesado)
+
+       se (pesado=não) então
+       escreva (“Você escolheu bicicleta.” )
+       senão
+       escreva (“Você escolheu trator.”)
+  fimse
+
+   senão
+   escreva (“Você escolheu moto.”)
+   fimse
+
+senão
+escreva (“Você não escolheu uma das opções.”)
+fimse
+
+fimalgoritmo
