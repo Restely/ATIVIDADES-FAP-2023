@@ -1,0 +1,34 @@
+INSTRUÇÕES DO PROJETO
+Aristóteles, Sócrates e Platão estavam disputando uma competição de perguntas nas disciplinas de Física, Matemática e Química. Cada um obteve um primeiro lugar, um segundo lugar e um terceiro lugar.
+
+Sabendo que: 
+- Aristóteles não ficou em primeiro em Química; 
+- Sócrates perdeu para Platão em Física; 
+- Platão acertou mais que Aristóteles em Matemática.
+
+Informe quem ficou em 1º, 2º e 3º lugar em cada disciplina.
+
+  RESOLUÇÃO
+  
+Sabendo que:		
+Aristóteles não ficou em 1º;			
+Sócrates perdeu para Platão em Física;			
+Platão acertou mais que Aristóteles em Matemática.			
+			
+Para cada linha, podemos ter somente 1 "OK"			
+			
+Aristóteles não ficou em 1º em Química; 			
+Sócrates perdeu para Platão em Física;			
+- Logo, Sócrates não ficou em 1º em física e Platão não ficou em 3º.			
+Platão acertou mais que Aristóteles em Matemática.			
+- Logo, Platão não ficou em 3º em Matemática e Aristóteles não ficou em 1º			
+
+  Agora, sabendo que cada um obteve um 1º lugar, um 2º lugar e um 3º lugar, e que em cada linha teremos somente um "OK",				
+Se Aristoteles não ficou em 1º nem em matematica nem em quimica, ficou em física				
+Se Platão não ficou em 3º lugar nem em física e nem em matematica, logo ficou em química				
+e assim vai...				
+				
+ENTÃO TEMOS COMO RESPOSTA:				
+Em Matemática: 1º - Platão, 2º - Sócrates e 3º Aristóteles				
+Em Física: 1º - Aristóteles, 2º- Platão e 3º - Sócrates.				
+Em Química: 1º - Sócrates, 2º - Aristóteles e 3º Platão		
