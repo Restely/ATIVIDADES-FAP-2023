@@ -1,0 +1,16 @@
+INSTRUÇÕES DO PROJETO
+Em uma sala de aula, há vinte e cinco alunos.
+Entre eles, existem os grupos dos que gostam de Português (P) e os que gostam de Matemática (M).
+Eles são divididos conforme a ilustração 1 em anexo.
+
+Depois de um tempo, chegaram mais onze alunos nessa turma e o professor organizou-a conforme a ilustração 2 em anexo.
+
+No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, percebeu que um aluno que gosta de uma das disciplinas havia trocado de lugar com alguém que prefere a outra, e a turma ficou organizada conforme a ilustração 3 em anexo.
+
+Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a troca de alunos e qual a disciplina de cada um.
+-------RESOLUÇÃO ---------
+Na primeira imagem o professor dividiu cada coluna e linha tendo 3 alunos de uma matéria e 2 da outra. (Ex.: 3 alunos que gostam de mat e dois que gostam de Port.. ou 3 que gostam de Português e 2 que gostam de Matemática)
+Na segunda imagem ficou 4 alunos de uma matéria e 2 da outra, tanto em coluna quando em linha, sem ter os 4 de uma matéria seguidos.
+Quando ele ouviu que os alunos teriam trocados de lugar, observou que havia 2 colunas e 2 linhas fora do padrão de 4 + 2.
+Na 3 coluna ele notou que havia 5 alunos de Matemática, então algum deles não pertencia aquele lugar. E só poderiam ser o da linha 4 ou 5 pq elas também estavam alteradas. Como não podia ter 4 alunos seguidos de uma matéria só, ele entendeu que foi o M da  linha 4 que trocou com o P da coluna 5 e linha 5.
+                                                                                                                                                                                                                                                                                                            
