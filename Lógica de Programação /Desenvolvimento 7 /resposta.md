@@ -10,4 +10,5 @@ var num = prompt ("Digite um numero que gostaria de ver a tabuada: ")
 for(i = 1; i <= 10; i++){
 var resultado = num * i
 document.write (num + " x " + i + " = " + resultado)
+
 }
