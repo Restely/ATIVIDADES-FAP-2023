@@ -1,0 +1,63 @@
+INSTRUÇÕES DO PROJETO
+
+Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+- Nome
+- Endereço
+- Cidade
+- CPF
+- RG
+- Idade
+- Nome do pai
+- Nome da mãe
+- Peso
+- Renda bruta
+Apresente as informações solicitadas no final do cadastro.
+
+-------RESOLUÇÃO-------
+var 
+ nome: caractere
+ endereco: caractere 
+ cidade: caractere
+ cpf: caractere
+ rg: caractere
+ idade: inteiro
+ nomePai: caractere
+ nomeMae: caractere 
+ peso: real 
+ rendaBruta: real
+
+inicio
+escreva(“Digite seu nome:  ”)
+leia(nome)
+escreva(“Digite seu endereço:  ”)
+leia(endereco)
+escreva(“Digite sua cidade: ”)
+leia(cidade)
+escreva(“Digite seu cpf: ”)
+leia(cpf)
+escreva(“Digite seu rg: ”)
+leia(rg)
+escreva(“Digite sua idade: ”)
+leia(idade)
+escreva(“Digite o nome do pai:  ”)
+leia(nomePai)
+escreva(“Digite o nome da mãe: ”)
+leia(nomeMae)
+escreva(“Digite seu peso: ”)
+leia(peso)
+escreva(“Digite sua renda bruta: ”)
+leia(rendaBruta)
+
+escreva(" Informações ") 
+escreva("Nome: ", nome) 
+escreva("Endereço: ", endereco) 
+escreva("Cidade: ", cidade) 
+escreva("CPF: ", cpf)
+ escreva("RG: ", rg) 
+escreva("Idade: ", idade)
+ escreva("Nome do pai: ", nomePai)
+ escreva("Nome da mãe: ", nomeMae) 
+escreva("Peso: ", peso)
+ escreva("Renda bruta: ", rendaBruta) 
+
+fimalgoritmo
