@@ -5,3 +5,4 @@ Faça uma função calculadora de dois números com três parâmetros: os dois p
 4. Divisão
 
 Caso seja inserido um número de operação que não exista, o resultado deverá ser 0.
+![Captura de Tela (14)](https://github.com/Restely/BackEnd-Softex/assets/139304808/18f3a80d-f6fb-4d93-8dce-aa8bf0b89627)
