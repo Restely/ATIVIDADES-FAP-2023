@@ -7,22 +7,22 @@ function nomeCompleto(){
  do {
   
   nome = prompt ("Insira seu nome completo: ")
-  
   if (!nome){
      alert ("Campo vazio") 
   }
+  
  }while (!nome) 
    return nome
 }
 
 function anoNascimento(){
  do{
-  
+   
   ano = parseInt(prompt ("Insira seu ano de nascimento (AAAA)"))
-  
   if (isNaN(ano) || ano > 2021 || ano < 1922 || !ano) {
      alert ("Dados incorretos")
   }
+  
  } while (isNaN(ano) || ano > 2021 || ano < 1922 || !ano)
    return ano
 }
