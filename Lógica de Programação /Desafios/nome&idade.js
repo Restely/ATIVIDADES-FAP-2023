@@ -5,21 +5,25 @@ Caso o usuário não digite um número ou apareça um inválido no campo do ano,
 
 function nomeCompleto(){
  do {
-nome = prompt ("Insira seu nome completo: ")
-if (!nome){
-  alert ("Campo vazio")
-}
-} while (!nome) 
-return nome
+  
+  nome = prompt ("Insira seu nome completo: ")
+  
+  if (!nome){
+     alert ("Campo vazio") 
+  }
+ }while (!nome) 
+   return nome
 }
 
 function anoNascimento(){
  do{
+  
   ano = parseInt(prompt ("Insira seu ano de nascimento (AAAA)"))
+  
   if (isNaN(ano) || ano > 2021 || ano < 1922 || !ano) {
-    alert ("Dados incorretos")
+     alert ("Dados incorretos")
   }
- }while (isNaN(ano) || ano > 2021 || ano < 1922 || !ano)
+ } while (isNaN(ano) || ano > 2021 || ano < 1922 || !ano)
    return ano
 }
 
