@@ -1,96 +1,75 @@
-somaS = 0 
-somaC = 0
-somaN = 0
-somaB = 0
-somaNulo = 0
-
-
-    function sport (){
-       
-            for(i=0; i<6; i++){
-            soma += i
-            }
-            return somaS
-    }
-
-    function santinhaC (){
-        
-        for(c=0; c<6; c++){
-        soma += c
-        }
-        return somaC
-    }
-
-    function barbieD (){
-       
-        for(n=0; n<6; n++){
-        soma += n
-        }   
-        return somaN 
-    }
-
-    function votoBranco(){
-        
-        for(b=0; b<6; b++){
-        soma += b
-        }
-        return somaB
-    }
-
-    function Nulos(){
-        if (votacao != 889 || votacao != 847 || votacao != 515 ){
-            for(e; e<6; e++){
-            soma += e
-            }
-            return somaNulo
-
-        } if (isNaN (votacao)){
-            alert("Voto inválido. Tente Novamente")
-            eleicao()
-        }
-    }
-
-    
-    
+   candidatoA=0
+   candidatoB=0
+   candidatoC=0
+   branco=0
+   nulos=0
 
 function eleicao (){
-    alert ("Candidatos: \n Seu Sport - 889 \n Santinha - 847 \n Barbie - 515 \n " )
-    votacao = parseInt(prompt("DIGITE O NÚMERO DO SEU CANDIDATO PARA VOTAR: "))
+   
+    votacao = parseInt(prompt("Candidato A : 889 \n Candidato B : 847 \n Candidato C - 515 \n Para votar em branco : 0 \n DIGITE O NÚMERO DO SEU CANDIDATO PARA VOTAR: "))
+
+    if(isNaN(votacao)){
+        alert("Voto inválido. Tente novamente")
+        eleicao()
+        return
+    }
 
     switch (votacao){
 
         case 889:
-            sport()
-            encerrar()
+            candidatoA++
             break
 
         case 847:
-           santinhaC()
-           encerrar()
+           candidatoB++
            break
 
         case 515: 
-        barbieD()
-        encerrar()
+           candidatoC++
         break
 
         case 0:
-            votoBranco()
-            encerrar()
+            branco++
             break
 
         default :
-           Nulos()
-           encerrar()
+           nulos++
            break
     }
+    resultado()
  }
 
- for (let i=0; i<6; i++){ //para repetir apenas 5 vezes
-    eleicao()
-}
-    console.log("Seu Sport:" + somaS)
-    console.log ("Santinha: "+ somaC)
-    console.log ("Dona Barbie: "+ somaN)
-    console.log ("Branco: "+ somaB)
-    console.log ("Nulos: "+ somaNulo)
+ function resultado(){
+    totalCandidatoA = candidatoA 
+    totalCandidatoB = candidatoB 
+    totalCandidatoC = candidatoC 
+    totalBrancos = branco
+    totalNulos = nulos
+    vencedor = ""
+    maiorVotos = 0
+
+    if (totalCandidatoA > maiorVotos){
+    vencedor = candidatoA
+    maiorVotos = totalCandidatoA
+    }
+    if (totalCandidatoB > maiorVotos){
+    vencedor = candidatoB
+    maiorVotos = totalCandidatoB
+    }
+    if (totalCandidatoC > maiorVotos){
+    vencedor = candidatoC
+    maiorVotos = totalCandidatoC
+    }
+    if (totalBrancos > maiorVotos){
+    vencedor = branco
+    maiorVotos = totalBrancos
+    }
+    if(totalNulos > maiorVotos){
+    vencedor = nulos
+    }
+
+    alert ("Resultado: \n Vencedor: " + vencedor + "\n Candidato A: " + totalCandidatoA + "\n Candidato B: " + totalCandidatoB + "\n Candidato C: " + totalCandidatoC + "\n Brancos: " + totalBrancos + "\n Nulos: " + totalNulos )
+
+ }
+
+ eleicao()
