@@ -49,23 +49,23 @@ function resultado(){
  maiorVotos = 0
 
  if (totalCandidatoA > maiorVotos){
- vencedor = candidatoA
+ vencedor = "Candidato A"
  maiorVotos = totalCandidatoA
  }
  if (totalCandidatoB > maiorVotos){
- vencedor = candidatoB
+ vencedor = "Candidato B"
  maiorVotos = totalCandidatoB
  }
  if (totalCandidatoC > maiorVotos){
- vencedor = candidatoC
+ vencedor = "Candidato C"
  maiorVotos = totalCandidatoC
  }
  if (totalBrancos > maiorVotos){
- vencedor = branco
+ vencedor = "Branco"
  maiorVotos = totalBrancos
  }
  if(totalNulos > maiorVotos){
- vencedor = nulos
+ vencedor = "Nulos"
  }
 
  alert ("Resultado: \n Vencedor: " + vencedor + "\n Candidato A: " + totalCandidatoA + "\n Candidato B: " + totalCandidatoB + "\n Candidato C: " + totalCandidatoC + "\n Brancos: " + totalBrancos + "\n Nulos: " + totalNulos )
